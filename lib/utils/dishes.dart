@@ -47,7 +47,7 @@ class Dishes extends StatelessWidget {
 
           Column(
             children: [
-              SizedBox(height: 20,),
+              SizedBox(height: 10,),
               Text(
                 dish_name,
                 style: TextStyle(
@@ -89,7 +89,7 @@ class Dishes extends StatelessWidget {
                    */
                 ],
               ),
-              //AddDish()
+              AddDish()
             ],
           ),
         ],
